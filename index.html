@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital-PROJECT</title>
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav class="flex justify-between">
+    <header class="pt-4">
+      <nav class="flex justify-between items-center">
         <div><img src="/images/icon.png" alt="" /></div>
-        <div>
+        <div class="flex gap-x-16 pr-10 font-serif">
           <a href="">HOME</a>
           <a href="">GALLERY</a>
           <a href="">PROJECTS</a>
@@ -19,6 +25,30 @@
           <a href="">CONTACTS</a>
         </div>
       </nav>
+      <div class="flex justify-between items-center pt-5 headerbody">
+        <div class="pl-40 header-text">
+          <h1 class="text-6xl">Project</h1>
+          <h2 class="font-bold text-7xl">Nurtown</h2>
+          <div class="flex pt-8">
+            <div class="bg-gray-100">
+              <img src="/images/arrow-2-right-long.svg" alt="" />
+            </div>
+            <div class="bg-gray-100">
+              <img src="/images/arrow-2-right-long (1).svg" alt="" />
+            </div>
+          </div>
+          <div class="pt-9">
+            <p>01 / 02</p>
+          </div>
+        </div>
+        <div class="header-img">
+          <img src="/images/Rectangle 6.png" alt="" />
+          <div class="flex pl-4 p-2 gap-2 bg-white header-img-content">
+            <button>LOOK AT</button>
+            <img src="/images/arrow-2-right-long (1).svg" alt="" />
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>

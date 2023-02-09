@@ -9,10 +9,34 @@
   border-width: 0;
   border-style: solid;
   border-color: #e5e7eb;
+  /* border: 2px solid red; */
 }
 
 /* Input css */
 nav {
   max-width: 1100px;
   margin: auto;
+}
+.headerbody {
+  max-width: 1210px;
+  margin: auto;
+}
+.header-img {
+  width: 50%;
+  position: relative;
+}
+.header-img img {
+  width: 100%;
+}
+.header-text h1 {
+  font-family: "Space Mono", monospace;
+}
+.header-img-content {
+  width: 25%;
+  /* margin: auto; */
+  position: absolute;
+  bottom: 0px;
+}
+.header-img-content img {
+  width: 30%;
 }
