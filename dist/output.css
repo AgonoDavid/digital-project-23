@@ -529,6 +529,10 @@ video {
   display: flex;
 }
 
+.w-3\/6 {
+  width: 50%;
+}
+
 .items-center {
   align-items: center;
 }
