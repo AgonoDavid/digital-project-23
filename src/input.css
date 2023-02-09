@@ -9,7 +9,7 @@
   border-width: 0;
   border-style: solid;
   border-color: #e5e7eb;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 /* Input css */
@@ -74,4 +74,9 @@ nav {
 .main-2 {
   max-width: 1090px;
   margin: 120px auto;
+}
+.baby {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
