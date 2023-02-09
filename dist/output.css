@@ -657,7 +657,7 @@ video {
   border-width: 0;
   border-style: solid;
   border-color: #e5e7eb;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 /* Input css */
@@ -732,4 +732,11 @@ nav {
 
 .first-main-images .img-2 {
   width: 27%;
+}
+
+/* main 2 */
+
+.main-2 {
+  max-width: 1090px;
+  margin: 120px auto;
 }
