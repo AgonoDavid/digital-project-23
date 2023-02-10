@@ -671,7 +671,7 @@ video {
   border-width: 0;
   border-style: solid;
   border-color: #e5e7eb;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 /* Input css */
@@ -751,7 +751,7 @@ nav {
 /* main 2 */
 
 .main-2 {
-  max-width: 1090px;
+  max-width: 1000px;
   margin: 120px auto;
 }
 
@@ -765,4 +765,15 @@ nav {
 }
 .main-2 p {
   font-family: monospace;
+}
+.new-text {
+  width: 60%;
+}
+.main-2-text {
+  max-width: 900px;
+  margin: auto;
+}
+.main-3 {
+  max-width: 1000px;
+  margin: 120px auto;
 }
